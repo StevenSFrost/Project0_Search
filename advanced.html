@@ -2,7 +2,21 @@
 <html lang = "en">
   <head>
     <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name = "viewport" content = "width = device-width, initial scale 1.0">
   </head>
   <body>
-    Hello, World!
+    <div class="links">
+      <a href = "index.html">Google</a>
+    </div>
+    <div>
+      <h3>Find pages with....</h3>
+      <form action="https://google.com/search">
+        <a>All of these words: </a><input type = "text" name = "as_q"> <br>
+        <a>Exactly these words: </a><input type = "text" name = "as_epq"> <br>
+        <a>Any of these words: </a><input type = "text" name = "as_oq"> <br>
+        <a>None of these words: </a><input type = "text" name = "as_eq"> <br>
+        <input id = "advanced" type = "submit" value ="Advanced Search">
+      </form>
+    </div>
   </body>

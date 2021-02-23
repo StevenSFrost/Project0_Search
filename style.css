@@ -5,11 +5,10 @@ body {
 
 div.links {
   text-align: right;
-
-  a {
-    margin-left:5px;
-    margin-right:5px;
-  }
+}
+div.links a {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 div.main {
@@ -23,10 +22,12 @@ img {
 }
 
 #advanced {
-   background-color: royalblue;
-   color: white;
+  background-color: royalblue;
+  color: white;
 }
 
 input {
   margin: 5px;
 }
+
+/*# sourceMappingURL=style.css.map */
